@@ -43,3 +43,12 @@ assign("familyset_hook",
 setHook("plot.new", get("familyset_hook", pos="JapanEnv"))
 setHook("persp", get("familyset_hook", pos="JapanEnv"))
 
+ tokimekiColor <- grDevices::colorRampPalette(c(
+                               "#81cef6",
+                               "#be92eb",
+                               "#fe7d6f",
+                               "#f8b1ec",
+                               "#ffe74e",
+                               "#0ac0ab"
+                               ))
+                               
